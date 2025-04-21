@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blur(0.5);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    background-image: url("https://i.ytimg.com/vi/pSLmLgPelf4/maxresdefault.jpg");
+    background-size: cover;
+    background-position: absolute;
+    background-repeat: no-repeat;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+    transition: all 0.5s ease;
+}
+
+main {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 2px rgb(49, 49, 49) solid;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+
+    text-align: center ;
+    margin-top: 300px;
+}
+
+main a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid #414141;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+main a:first-of-type {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+main a:hover {
+    background-color: rgb(132, 132, 132);
+    transition: 0.5s;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+main form input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #474747;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+main form button {
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #4e4e4e;
+    background-color:transparent;
+    backdrop-filter: blur(70px);
+    margin-top: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+main form button:hover {
+    background-color: rgb(79, 79, 79);
+    transition: 0.5s;
+}
+
+.remember label input {
+    margin-right: 5px;
+}
+
+
+
+

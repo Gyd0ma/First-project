@@ -1,0 +1,74 @@
+.lofi-button {
+    background-color: #ffcc99; /* Soft pastel orange */
+    color: #4d4d4d; /* Neutral gray for text */
+    font-family: 'Courier New', Courier, monospace; /* Lo-fi aesthetic font */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #4d4d4d; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #4d4d4d; /* Retro shadow effect */
+    transition: all 0.2s ease-in-out;
+}
+
+.lofi-button:hover {
+    background-color: #ff9966; /* Slightly darker pastel orange */
+    box-shadow: 2px 2px 0px #4d4d4d; /* Reduced shadow on hover */
+    transform: translate(2px, 2px); /* Slight movement for a pressed effect */
+}
+
+.lofi-button:active {
+    background-color: #cc7a33; /* Even darker for active state */
+    box-shadow: none; /* Remove shadow */
+    transform: translate(4px, 4px); /* Pressed down effect */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blur(0.5);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ee4a43d0-5a37-40ad-92a0-9411ecf1b470/df0s3ni-c14f1745-fe3f-4047-aa4d-78d0df2b3ec5.jpg/v1/fill/w_1192,h_670,q_70,strp/landscape___lofi_by_katykum208_df0s3ni-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZWU0YTQzZDAtNWEzNy00MGFkLTkyYTAtOTQxMWVjZjFiNDcwXC9kZjBzM25pLWMxNGYxNzQ1LWZlM2YtNDA0Ny1hYTRkLTc4ZDBkZjJiM2VjNS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.jV7K-RZjbhju2eVlOVWz4SSwXUW8Mej6hc2AxZ4zedw");
+    background-size: cover;
+    background-position: relative;
+    background-repeat: no-repeat;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 2px rgb(49, 49, 49) solid;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+
+    text-align: center ;
+    margin-top: 300px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+}
+
+.lofi-button a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid #414141;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
